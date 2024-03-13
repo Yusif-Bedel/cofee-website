@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    width: auto;
+    height: auto;
+    background-image: linear-gradient(
+        rgba(47, 23, 15, 0.65),
+        rgba(47, 23, 15, 0.65)
+      ),
+      url(bg.jpg);
+    background-size: cover;
+    background-attachment: scroll;
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+  }
+  header h2 {
+    color: rgb(206, 156, 92);
+    font-weight: bold;
+    font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+      "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 30px;
+  }
+  h1 {
+    color: white;
+    font-weight: lighter;
+    font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+      "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 70px;
+  }
+  nav {
+    margin-top: 50px;
+    width: 100%;
+  }
+  ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(48, 21, 0, 0.757);
+    height: 100px;
+    color: wheat;
+    text-decoration: none;
+    gap: 50px;
+    list-style-type: none;
+  }
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+  }
+.coffees{
+    padding: 200px;
+}
+.head1{
+    background: #f6e1c5;
+    padding: 30px;
+    border-radius: 10px;
+    width: 400px;
+    position: absolute;
+text-align: center;
+right: 130px;
+top: 510px;
+}
+.head1 h2{
+    font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: lighter;
+    font-size: 30px;
+}
+.img1{
+    width: 550px;
+    height: 400px;
+    position: relative;
+}
+.content1{
+    background: #f6e1c5;
+    padding: 0px 30px;
+    border-radius: 10px;
+    width: 450px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 1200px;
+    left: 100px;
+}
+.bakery{
+    padding: 200px;
+}
+.head2{
+    background: #f6e1c5;
+    padding: 30px;
+    border-radius: 10px;
+    width: 400px;
+    position: absolute;
+    text-align: center;
+    left: 130px;
+    top: 1640px;
+}
+.head2 h2{
+    font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: lighter;
+    font-size: 30px;
+}
+.img2{
+    width: 750px;
+    height: 500px;
+ 
+    margin-left: 100px;
+}
+.content2{
+    background: #f6e1c5;
+    padding: 0px 30px;
+    border-radius: 10px;
+    width: 450px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 2100px;
+    right: 100px;
+}
+.bulk{
+    padding: 200px;
+}
+.head3{
+    background: #f6e1c5;
+    padding: 30px;
+    border-radius: 10px;
+    width: 400px;
+    position: absolute;
+    text-align: center;
+    right: 130px;
+    top: 2550px;
+}
+.head3 h2{
+    font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: lighter;
+    font-size: 30px;
+}
+.img3{
+    width: 750px;
+    height: 500px;
+ 
+    margin-left: 100px;
+}
+.content3{
+    background: #f6e1c5;
+    padding: 0px 30px;
+    border-radius: 10px;
+    width: 450px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 3000px;
+    left: 100px;
+}
+footer{
+    position: absolute;
+    top: 3300px;
+    background-color: #2F170FE6;
+    padding: 50px ;
+    width: 100%;
+    text-align: center;
+    display: flex;justify-content: center;
+    color: white;
+  }
